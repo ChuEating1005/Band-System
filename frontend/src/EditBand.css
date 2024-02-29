@@ -1,0 +1,92 @@
+
+.profile-edit-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* color: #fff; */
+    
+  }
+  
+  .profile-edit-heading {
+    text-align: center;
+  }
+  
+  .profile-edit-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .profile-edit-label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .profile-edit-input,
+  .profile-edit-select,
+  .profile-edit-textarea {
+    
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-edit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-edit-button:hover {
+    background-color: #45a049;
+  }
+
+  .profile-edit-search {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .search-filter-container {
+    float: right;
+  }
+  .search-filter-container span {
+    margin: 0px 10px 0px 0px;
+    font-family: 'Noto Sans TC', 'FontAwesome';
+  }
+  
+  .search-filter {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 110px;
+    transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0px 0px 0px 8px;
+    
+  }
+  
+  .search-filter option {
+    text-align: left;
+    margin: 0px 0px 0px 4px;
+  }
+  
+  .search-filter:hover {
+    border: 1px solid #999;
+  }
+  
+  .search-filter:focus {
+    border: 1px solid #999;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+    outline: none;
+  }
