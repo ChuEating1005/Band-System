@@ -7,7 +7,7 @@ NYCU Introduction to Database System Final Project - 樂團系統
 - 搜尋功能，根據 Filter 勾選結果排出符合自己喜好的個人資料
 ## 本地端測試
 請先在 `backend/.env` 中設定 AWS Database 的 endpoint，並執行 `backend/create_tables.py` 來建出各個 Schema。  
-在 `frontend/src/App.js` 中的 `App()` 函數中裡把 url 設定成後端 Server 的 IP 位址。
+接著在 `frontend/src/App.js` 中的 `App()` 函數中裡把 url 設定成後端 Server 的 IP 位址。
 ### Build Backend Server
 ```
 cd ./backend
