@@ -1,5 +1,6 @@
 # Band System
-NYCU Introduction to Database System Final Project - 樂團系統
+NYCU Introduction to Database System Final Project - 樂團系統  
+前端展示：[band-system.github.io](https://band-system.github.io/#/home)
 ## 功能
 - 帳號管理，分為樂手以及樂團兩種帳號，並擁有各自的頁面
 - 樂手可以創建個人帳號並向喜愛樂團發出申請
